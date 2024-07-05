@@ -37,7 +37,7 @@ import scala.io.Source
 def saludo(): Unit = {
   println("Por favor, ingresa tu nombre:");
   val nombre = readLine();
-  println("Hola, " + nombre + " desde Scala");
+  println(s"Hola, $nombre desde Scala");
 }
 
 //2) Ejercicio 16
